@@ -1,0 +1,199 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* Navigation */
+nav .logo{
+  padding-left: 5%;
+  scale: 1.3;
+}
+
+.nav-container {
+  background: #fffffa;
+  box-shadow: 0px 8px 24px #021718;
+  height: 72px;
+  margin-top: 0px;
+  z-index: 500;
+  position: relative;
+}
+
+.wrapper {
+  width:90%;
+  margin: 0 auto;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 72px;
+}
+
+nav ul {
+  display: flex;
+}
+
+.nav-items li {
+  list-style: none;
+  margin-right: 100px;
+  
+}
+
+.nav-items li:nth-last-of-type(1) {
+  margin-right: 50px;
+
+}
+
+.nav-items li a {
+  color: #021718;
+  font-size: 24px;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+}
+
+/* Header */
+
+.header-container {
+  background: #94DCCF url("images/bg-shape.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 662px 667px;
+  height: calc(100vh - 72px);
+  display: flex;
+  align-items: center;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header h1 {
+  font-weight: 900;
+  font-size: 64px;
+  line-height: 75px;
+  color: #021718;
+  margin-top: 72px;
+  margin-bottom: 48px;
+}
+
+header p {
+  font-size: 24px;
+  line-height: 42px;
+  color: #021718;
+  width: 418px;
+
+  margin-bottom: 48px;
+}
+
+header a {
+  color: #fffffa;
+  font-size: 24px;
+  text-decoration: none;
+
+  background: #01847f;
+  box-shadow: 0px 8px 20px #021718;
+  border-radius: 8px;
+  padding: 12px 48px;
+  display: inline-block;
+  transition: 300ms;
+
+  margin-bottom: 72px;
+}
+
+header a:hover {
+  transform: translateY(-8px);
+}
+
+/* Social Icons */
+
+.social-icons {
+  display: flex;
+  align-items: center;
+}
+
+.Instagram{
+  scale: 0.8;
+}
+
+.Facebook{
+  scale: 0.8;
+}
+
+.Twitter{
+  scale: 0.8;
+}
+
+.social-icons a {
+  margin: 0 24px;
+}
+
+.social-icons a:nth-of-type(1) {
+  margin-left: 0;
+}
+
+/* Hero image */
+
+header .hero-image {
+  position: absolute;
+  width: 450px;
+  height: 450px;
+  margin-left: 60%;
+  margin-top: 10%;
+}
+
+header .hero-image img {
+  transition: 300ms;
+  position: relative;
+  z-index: 100;
+}
+
+header .hero-image img:hover {
+  transform: rotate(-6deg);
+}
+
+
+/*Checkbox*/
+form {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+input[type="text"], textarea {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #ccc;
+  box-shadow: 0px 8px 20px #021718;
+  border-radius: 8px;
+  margin-top: 20px;
+  resize:vertical;
+}
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 20px;
+}
+
+button[type="submit"] {
+  margin-top: 500px;
+  margin-left: 15px;
+  background-color: #4CAF50;
+  box-shadow: 0px 8px 20px #021718;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.contain{
+  background-color: #94DCCF;
+}
