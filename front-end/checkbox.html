@@ -26,11 +26,16 @@
 
 		<div class="contain">
 			<form action="#" method="post">
-				<div class="col-75">
-					<textarea id="headline" placeholder="Headline/News.." style="height:500px" required></textarea>
-				</div>
+			{% csrf_token %}
+        		<table>
+			<div class="col-75">
+			<textarea id="headline" placeholder="Headline/News.." style="height:500px" required></textarea>
+			</div>
+			<tr>
+			  <td colspan="2"><input type="submit" name="" value="submit"></td>
+			</tr>
+			</table>
 			</form>
-			<button type="submit">Submit</button>
 		</div>
 </body>
 </html>
