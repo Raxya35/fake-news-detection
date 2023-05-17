@@ -179,7 +179,7 @@ input[type="text"], textarea {
   margin-top: 20px;
 }
 
-button[type="submit"] {
+input[type="submit"] {
   margin-top: 500px;
   margin-left: 15px;
   background-color: #4CAF50;
@@ -190,7 +190,7 @@ button[type="submit"] {
   border-radius: 4px;
   cursor: pointer;
 }
-button[type="submit"]:hover {
+input[type="submit"]:hover {
   background-color: #45a049;
 }
 
