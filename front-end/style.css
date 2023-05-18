@@ -197,3 +197,10 @@ input[type="submit"]:hover {
 .contain{
   background-color: #94DCCF;
 }
+
+.response-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
